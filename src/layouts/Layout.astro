@@ -1,0 +1,21 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import headHtml from '../partials/head.html?raw';
+import bodyBeforeHeaderHtml from '../partials/body-before-header.html?raw';
+import bodyAfterFooterHtml from '../partials/body-after-footer.html?raw';
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <Fragment set:html={headHtml} />
+  </head>
+  <body class="home wp-singular page-template page-template-elementor_header_footer page page-id-13 logged-in wp-theme-Geniatech front-page single-page elementor-default elementor-template-full-width elementor-kit-19218 elementor-page elementor-page-13">
+    <Fragment set:html={bodyBeforeHeaderHtml} />
+    <Header />
+    <slot />
+    <Footer />
+    <Fragment set:html={bodyAfterFooterHtml} />
+  </body>
+</html>

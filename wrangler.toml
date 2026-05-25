@@ -1,0 +1,4 @@
+# Cloudflare Pages — connect repo or run: npx wrangler pages deploy dist
+name = "mygica-site"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"

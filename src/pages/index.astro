@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import mainHtml from '../partials/main.html?raw';
+---
+
+<Layout>
+  <Fragment set:html={mainHtml} />
+</Layout>

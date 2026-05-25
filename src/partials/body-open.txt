@@ -1,0 +1,1 @@
+<body class="home wp-singular page-template page-template-elementor_header_footer page page-id-13 logged-in wp-theme-Geniatech front-page single-page elementor-default elementor-template-full-width elementor-kit-19218 elementor-page elementor-page-13">
